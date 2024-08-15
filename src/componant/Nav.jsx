@@ -1,5 +1,5 @@
 import { AiOutlineClose, AiOutlineMenu, } from "react-icons/ai"
-
+import { Link } from 'react-scroll'
 
 import { useState } from "react";
 
@@ -22,8 +22,21 @@ const Nav = () => {
                     <span className="md:grid hidden font-thin">Sitemap</span>
                     <ul className="hidden font-thin text-lg md:flex gap-10">
                         {/* <li><a href="#home">Home</a></li> */}
-                        <li><a href="#project">Project</a></li>
-                        <li><a href="#about">About Me</a></li>
+                        {/* <li><a href="#project">Project</a></li> */}
+                        <li><Link
+                            to="project"
+                            spy={true}
+                            smooth={true}
+                            
+                            duration={500}
+                            className=" cursor-pointer" >Project</Link></li>
+                        <li><Link
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            
+                            duration={500}
+                            className=" cursor-pointer">About Me</Link></li>
                         {/* <li><a href="#contact">Contact</a></li> */}
                     </ul>
 
@@ -36,10 +49,24 @@ const Nav = () => {
                                 {/* <li><a href="">Home</a></li> */}
                                 <li className="text-sm font-medium pb-4">Sitemap:</li>
                                 <li
-                                onClick={() => setToogle(!toogle)}><a href="#about">About Me</a></li>
+                                    >
+                                    <Link 
+                                    to="about"
+                                    spy={true}
+                                    smooth={true}   
+                                    duration={500}
+                                    className=" cursor-pointer"
+                                    onClick={() => setToogle(!toogle)}>About Me</Link></li>
                                 <li
-                                onClick={() => setToogle(!toogle)}><a href="#project">Projects</a></li> 
-                                
+                                    onClick={() => setToogle(!toogle)}>
+                                        <Link
+                                        to="project"
+                                        spy={true}
+                                        smooth={true}   
+                                        duration={500}
+                                        className=" cursor-pointer"
+                                        onClick={() => setToogle(!toogle)}>Projects</Link></li>
+
                                 {/* <li><a href="">Contact</a></li> */}
                             </ul>
 
