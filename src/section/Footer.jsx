@@ -61,7 +61,7 @@ const Footer = () => {
 
     return (
         <section className=' bg-white'>
-            <div className='max-w-[1240px] mx-auto py-10 text-black'>
+            <div className='max-w-[1240px] mx-auto px-2 py-10 text-black'>
                 {/* dshfgosdhf */}
 
                 <div className='lg:flex sm:px-10 justify-around items-center pb-10'>

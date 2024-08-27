@@ -15,7 +15,7 @@ const Projects = () => {
     <section id="project" className="py-5">
 
 
-      <div className="xl:grid grid-cols-2 gap-2 sm:mx-20 items-center mb-20">
+      <div className="xl:grid grid-cols-2 gap-2 sm:mx-20 items-center mb-20 px-2">
         <div className="lg:px-10 mb-5 " data-aos="fade-up">
           <p className="sm:text-5xl text-3xl font-bold sm:leading-snug leading-10">SOME OF THE PROJECTS I HAVE WORKED</p>
         </div>
@@ -35,7 +35,7 @@ const Projects = () => {
 
       <hr />
 
-      <div className="xl:flex justify-between items-center sm:mx-24 my-20 h-full" >
+      <div className="xl:flex justify-between items-center sm:mx-24 my-20 h-full px-2" >
         <div className="flex justify-center xl:order-last rounded-xl py-5  my-0" data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000">
@@ -95,7 +95,7 @@ const Projects = () => {
 
             alt="Placeholder Image" className="object-cover rounded-lg shadow-xl shadow-gray-500" />
         </div>
-        <div className="flex justify-center xl:mx-10 my-10" data-aos="fade-up">
+        <div className="flex justify-center xl:mx-10 my-10 px-2" data-aos="fade-up">
           <div className="sm:w-[520px]">
             <h1 className="text-4xl font-medium">One Shot</h1>
             <p className="text-justify font-thin mt-5">
@@ -145,7 +145,7 @@ const Projects = () => {
 
             alt="Placeholder Image" className="object-cover rounded-lg shadow-xl shadow-gray-500" />
         </div>
-        <div className="flex justify-center xl:mx-10 my-10" data-aos="fade-up">
+        <div className="flex justify-center xl:mx-10 my-10 px-2" data-aos="fade-up">
           <div className="sm:w-[520px]">
             <h1 className="text-4xl font-medium">Nike</h1>
             <p className="text-justify font-thin mt-5">
