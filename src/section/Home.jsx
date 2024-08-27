@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee";
 import { ReactTyped } from "react-typed";
-import boy from "../assets/boy.png"
+import deepak from "../assets/deepak.png"
 
 
 
@@ -12,19 +12,19 @@ const Home = () => {
           <div className=''>
 
             <div className="flex justify-center">
-            <img src={boy}
-              width={615} alt=""
+            <img src={deepak}
+              width={509} alt=""
               className="" />
             </div>
 
 
-            <div className="absolute bottom-[80px] sm:left-0 lg:ms-10">
+            <div className="absolute bottom-[80px] sm:left-32 lg:ms-10">
               <div className=" text-4xl font-light sm:text-7xl md:text-8xl">
-                <h1 className=' bg-opacity-5 px-1 mb-5'>Graphic &</h1>
+                <h1 className=' bg-opacity-5 px-5 mb-5'>Web</h1>
 
                 <span className='bg-white bg-opacity-5 px-2'>
-                  web
-                  <ReactTyped strings={["Developer", "Designer"]} typeSpeed={70} backSpeed={50} loop className=' ps-2' />
+                  
+                <ReactTyped strings={["Developer", "Designer"]} typeSpeed={70} backSpeed={50} loop className=' ps-2' />
                 </span>
               </div>
             </div>
@@ -34,37 +34,37 @@ const Home = () => {
             {/* *********
                 ICONS
                 ========== */}
-            <div className=" absolute text-base text-white font-medium  right-0 bottom-[80px] hidden xl:grid pe-10">
+            <div className=" absolute text-base text-white font-medium  right-16 bottom-[80px] hidden xl:grid pe-10">
               <div className='grid'>
-                <span className=' bg-white bg-opacity-5 px-1'>deepakmehra7830@gamil.com</span>
-                <span className=' bg-white bg-opacity-5 px-1 my-1'>+91 7830799870</span>
+                <span className=' bg-white bg-opacity-10  px-1'>deepakmehra7830@gamil.com</span>
+                <span className=' bg-white bg-opacity-10  px-1 my-1'>+91 7830799870</span>
               </div>
               <ul className="flex gap-5 sm:gap-3">
                 <li>
-                  <a href="https://www.facebook.com/the.demon.3/" target="blank" className=' bg-white bg-opacity-5 px-1'>
+                  <a href="https://www.facebook.com/the.demon.3/" target="blank" className=' bg-white  bg-opacity-10 px-1'>
                     facebook,
                   </a>
                 </li>
 
                 <li>
-                  <a href="https://www.instagram.com/deepak__mehra" target="blank" className=' bg-white bg-opacity-5 px-1'>
+                  <a href="https://www.instagram.com/deepak__mehra" target="blank" className=' bg-white  bg-opacity-10 px-1'>
                     Instagram,
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/deepak-singh-763487263/" target="blank" className=' bg-white bg-opacity-5 px-1'>
+                  <a href="https://www.linkedin.com/in/deepak-singh-763487263/" target="blank" className=' bg-white bg-opacity-10 px-1'>
                     Linkdin,
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/un0known" target="blank" className=' bg-white bg-opacity-5 px-1'>
+                  <a href="https://github.com/un0known" target="blank" className=' bg-white  bg-opacity-10 px-1'>
                     Github
                   </a>
                 </li>
               </ul>
             </div>
 
-            <div  className=' absolute bottom-0 w-full bg-white bg-opacity-10 font-thin' >
+            <div  className=' absolute bottom-0 w-full bg-white bg-opacity-20 font-thin' >
               <Marquee speed={150} className="">
               <div className="flex justify-between items-center py-[5px]">
                 <span className="">Web Designer</span>

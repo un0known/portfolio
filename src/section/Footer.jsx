@@ -3,8 +3,16 @@ import { Button, Drawer, Label, Textarea, TextInput } from "flowbite-react";
 import { useState } from "react";
 import axios from "axios"
 import Swal from "sweetalert2"
+import AOS from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
 const Footer = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 1000 })
+      }, []);
+
     const [name, setName] = useState()
     const [email, setEmail] = useState()
     const [message, setMessage] = useState()
@@ -46,13 +54,18 @@ const Footer = () => {
         }
       }
 
+
+     
+
+      
+
     return (
         <section className=' bg-white'>
             <div className='max-w-[1240px] mx-auto py-10 text-black'>
                 {/* dshfgosdhf */}
 
-                <div className='lg:flex sm:px-10 justify-between items-center pb-10'>
-                    <div className='pt-10'>
+                <div className='lg:flex sm:px-10 justify-around items-center pb-10'>
+                    <div className='pt-10'  data-aos="fade-right">
                         <span className='text-md font-thin'>That's for all now</span>
 
                         <p className='text-2xl sm:text-4xl font-thin my-6 sm:leading-relaxed leading-relaxed'>Got a project in mind? <br />
@@ -61,7 +74,7 @@ const Footer = () => {
                     {/* email section */}
 
 
-                    <div className=" rounded-xl">
+                    <div className=" rounded-xl"  data-aos="fade-left">
                         
                         <div className="">
                             <form action="#" onSubmit={onSubmit}>
