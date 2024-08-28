@@ -74,7 +74,7 @@ const Footer = () => {
                     {/* email section */}
 
 
-                    <div className=" rounded-xl"  data-aos="fade-left">
+                    <div className=" rounded-xl overflow-hidden"  data-aos="fade-up">
                         
                         <div className="">
                             <form action="#" onSubmit={onSubmit}>
