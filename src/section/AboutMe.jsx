@@ -53,21 +53,21 @@ const AboutMe = () => {
               <img src={mongo} alt="" width={50} />
               <h4 className="text-sm">Mongodb</h4>
             </div>
-            <div className="stack">
+            <div className="stack ">
               <img src={javascript} alt="" width={50} />
               <h4 className="text-sm">JavaScript</h4>
             </div>
-            <div className="stack p-[20px]">
-              <img src={react} alt="" width={50} className="p-" />
-              <h4 className="text-sm">React</h4>
+            <div className="stack ">
+              <img src={react} alt="" width={60} className="p-" />
+              <h4 className="text-sm text-center">React</h4>
             </div>
-            <div className="stack p-[20px]">
-              <img src={nodejs} alt="" width={50} />
+            <div className="stack ">
+              <img src={nodejs} alt="" width={60} />
               <h4 className="text-sm">NodeJs</h4>
             </div>
             <div className="stack">
               <img src={expressjs} alt="" width={50} />
-              <h4 className="text-sm">ExpressJs</h4>
+              <h4 className="text-sm text-center">ExpressJs</h4>
             </div>
           </div>
           <h1 className="text-center my-14 text-5xl font-thin">stack</h1>
